@@ -28,11 +28,11 @@ class FirstFragment : Fragment(R.layout.fragment_first) {
 
         viewModel = ViewModelProvider(requireActivity()).get(MainViewModel::class.java)
 
-        binding.PLUS.setOnClickListener {
+        binding.plus.setOnClickListener {
             viewModel.onIncrementClick()
         }
 
-        binding.MINUS.setOnClickListener {
+        binding.minus.setOnClickListener {
             viewModel.onItemClickMinus()
         }
 

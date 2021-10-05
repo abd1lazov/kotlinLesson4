@@ -12,6 +12,4 @@ class ViewPagerAdapter(private val fragments: ArrayList<Fragment>, mainActivity:
     override fun createFragment(position: Int): Fragment {
        return fragments[position]
     }
-
-
 }

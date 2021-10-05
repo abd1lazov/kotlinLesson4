@@ -3,10 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/teal_700"
     tools:context="space.abdilazov.fragments.FirstFragment">
 
     <Button
-        android:id="@+id/PLUS"
+        android:id="@+id/plus"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -16,7 +17,7 @@
         android:layout_marginTop="200dp"/>
 
     <Button
-        android:id="@+id/MINUS"
+        android:id="@+id/minus"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="400dp"
